@@ -1,6 +1,7 @@
 <resources>
     <fonts>
       <font id="fntArm" filename="fonts/fontOutArm.fnt" antialias="true"/>
+      <font id="fntBody324" filename="fonts/fontOutBody324.fnt" antialias="true"/>
       <font id="fntBody" filename="fonts/fontOutBody.fnt" antialias="true"/>
     </fonts>
     

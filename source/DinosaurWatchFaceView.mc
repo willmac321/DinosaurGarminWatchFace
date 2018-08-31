@@ -21,10 +21,12 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
     var dinoArm;
     
 	var f_body;
+	var f_arm;
 	var centerpoint;
 	var xoff;
 	var yoff;
-	
+	        
+    var secondo;
 	
     function initialize() {
         WatchFace.initialize();
@@ -34,6 +36,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         //dinoBody = new WatchUi.Bitmap({:rezId=>Rez.Drawables.dinoBody, :locX=>0, :locY=>0});
        // dinoArm = new WatchUi.Bitmap({:rezId=>Rez.Drawables.dinoArm, :locX=>0, :locY=>0});
         f_body = null;
+        secondo = 33;
     }
 
     // Load your resources here
@@ -53,8 +56,8 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 		//dinoBody.setLocation(screenCenterPoint[0] - di[0],screenCenterPoint[1] - di[1]);
        // dinoArm.setLocation(screenCenterPoint[0] - diA[0],screenCenterPoint[1]- diA[1]);
        
-       f_body = loadResource(Rez.Fonts.fntArm);
-       
+       f_body = loadResource(Rez.Fonts.fntBody324);
+       f_arm = loadResource(Rez.Fonts.fntArm);
 
     }
 
@@ -73,7 +76,6 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
         var minuteHandAngle;
         var hourHandAngle;
-        var second;
       //  var secondHand;
         var targetDc = null;
     
@@ -95,10 +97,12 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         
         // Draw the minute hand.
         minuteHandAngle = (clockTime.min / 60.0) * Math.PI * 2;
-        
-        var secondo = 33 + clockTime.sec -1;
-
-        dc.drawText(dc.getWidth()/2,dc.getHeight()/2, f_body, secondo.toChar() , Graphics.TEXT_JUSTIFY_LEFT);
+		
+		secondo ++;
+		
+		System.println(secondo);
+        dc.drawText(dc.getWidth()/2,dc.getHeight()/2, f_body, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth()/2+24,dc.getHeight()/2, f_arm, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
         //draw the dinosaur
        // dinoBody.draw(dc);
 		//dinoArm.draw(dc);
