@@ -127,7 +127,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         var screenWidth = dc.getWidth();
         var clockTime = System.getClockTime();
     	var min = clockTime.min;
-	    var hr = clockTime.hour;
+	    var hr = clockTime.hour % 12;
     	var hrInc = (min.toFloat() / 60 * hr);
     	hrInc = hrInc.toNumber();
      // We always want to refresh the full screen when we get a regular onUpdate call.
@@ -248,11 +248,11 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   }
 	   
 	   f_bodyPnk = null;
-	   			   //draw the dino arm
+	   //draw the dino arm
 	   dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-	  // System.println(hr);
-//	System.println(hr);
-//	System.println(hrInc);
+	   System.println(hr);
+	   System.println(hrInc);
+	   
 	   if (hr < 3){
 	   	   	f_armO = loadResource(Rez.Fonts.fntArmO90); 
 	   		var arr = WatchUi.loadResource(Rez.JsonData.ArmO15);	   		
@@ -270,7 +270,8 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
  	   	   	var arr = WatchUi.loadResource(Rez.JsonData.ArmO0);
 	   		dinoArm = arr[hr - 9 + hrInc];	  	   
 	   }
-		//System.println(dinoBody);
+	   
+	   System.println(dinoArm);
        for(var i = 0; i < dinoArm.size(); i++) {
        
 	        var packed_value = dinoArm[i];
