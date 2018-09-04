@@ -1,8 +1,10 @@
 <resources>
     <fonts>
-      <font id="fntArm" filename="fonts/fontOutArm.fnt" antialias="true"/>
-      <font id="fntBody324" filename="fonts/fontOutBody324.fnt" antialias="true"/>
-      <font id="fntBody" filename="fonts/fontOutBody.fnt" antialias="true"/>
+      <font id="fntArm0" filename="fonts/fontOutArm0.fnt" antialias="true"/>
+      <font id="fntBody0" filename="fonts/fontOutBody0.fnt" antialias="true"/>
+      <font id="fntBody90" filename="fonts/fontOutBody90.fnt" antialias="true"/>
+      <font id="fntBody180" filename="fonts/fontOutBody180.fnt" antialias="true"/>
+      <font id="fntBody270" filename="fonts/fontOutBody270.fnt" antialias="true"/>
     </fonts>
     
 	<bitmap id="LauncherIcon" filename="images/icon.png" />

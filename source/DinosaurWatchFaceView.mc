@@ -20,8 +20,8 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
     var dinoBody;
     var dinoArm;
     
-	var f_body;
-	var f_arm;
+	var f_body0, f_body90, f_body180, f_body270;
+	var f_arm0;
 	var centerpoint;
 	var xoff;
 	var yoff;
@@ -35,7 +35,10 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         partialUpdatesAllowed = ( Toybox.WatchUi.WatchFace has :onPartialUpdate );
         //dinoBody = new WatchUi.Bitmap({:rezId=>Rez.Drawables.dinoBody, :locX=>0, :locY=>0});
        // dinoArm = new WatchUi.Bitmap({:rezId=>Rez.Drawables.dinoArm, :locX=>0, :locY=>0});
-        f_body = null;
+        f_body0 = null;
+       	f_body90 = null;
+       	f_body180 = null;
+       	f_body270 = null;
         secondo = 33;
     }
 
@@ -56,8 +59,11 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 		//dinoBody.setLocation(screenCenterPoint[0] - di[0],screenCenterPoint[1] - di[1]);
        // dinoArm.setLocation(screenCenterPoint[0] - diA[0],screenCenterPoint[1]- diA[1]);
        
-       f_body = loadResource(Rez.Fonts.fntBody324);
-       f_arm = loadResource(Rez.Fonts.fntArm);
+       f_body0 = loadResource(Rez.Fonts.fntBody0);
+       //f_body90 = loadResource(Rez.Fonts.fntBody90);
+       //f_body180 = loadResource(Rez.Fonts.fntBody180);
+       //f_body306 = loadResource(Rez.Fonts.fntBody306);
+       f_arm0 = loadResource(Rez.Fonts.fntArm0);
 
     }
 
@@ -98,11 +104,21 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         // Draw the minute hand.
         minuteHandAngle = (clockTime.min / 60.0) * Math.PI * 2;
 		
-		secondo ++;
 		
-		System.println(secondo);
-        dc.drawText(dc.getWidth()/2,dc.getHeight()/2, f_body, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawText(dc.getWidth()/2+24,dc.getHeight()/2, f_arm, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       // dc.drawText(dc.getWidth()/2-48,dc.getHeight()/2, f_body0, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       	for (var i = 0; i < 3; i += 1) {
+       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2, f_body0, (i + 33).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       	}
+        for (var i = 0; i < 3; i += 1) {
+       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2 + 24, f_body0, (i + 33 +3).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       	}
+       	for (var i = 0; i < 3; i += 1) {
+       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2 + 24*2, f_body0, (i + 33 +6).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       	}
+       // dc.drawText(dc.getWidth()/2-24,dc.getHeight()/2, f_body0, secondo.toChar() + 10 , Graphics.TEXT_JUSTIFY_CENTER);
+       // dc.drawText(dc.getWidth()/2,dc.getHeight()/2, f_body180, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       // dc.drawText(dc.getWidth()/2+48,dc.getHeight()/2, f_body306, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
+       // dc.drawText(dc.getWidth()/2+24,dc.getHeight()/2, f_arm0, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
         //draw the dinosaur
        // dinoBody.draw(dc);
 		//dinoArm.draw(dc);
