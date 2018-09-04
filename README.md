@@ -1,2 +1,2 @@
 # Dinosaur Watch Face
-![](/WatchOut.jpg)
+![](/WatchOut.JPG)
