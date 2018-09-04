@@ -13,253 +13,292 @@
         <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceApp.mc" id="8" lineNum="23" pc="268435600" symbol="onStop"/>
         <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceApp.mc" id="9" lineNum="26" pc="268435605" symbol="getInitialView"/>
         <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceApp.mc" id="9" lineNum="28" pc="268435609" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="43" pc="268435647" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="44" pc="268435651" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="45" pc="268435669" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="46" pc="268435698" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="47" pc="268435708" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="50" pc="268435742" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="51" pc="268435751" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="52" pc="268435760" symbol="initialize"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="57" pc="268435770" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="58" pc="268435774" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="59" pc="268435811" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="77" pc="268435876" symbol="findCenterpoint"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="78" pc="268435880" symbol="findCenterpoint"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="79" pc="268435893" symbol="findCenterpoint"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="80" pc="268435915" symbol="findCenterpoint"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="81" pc="268435937" symbol="findCenterpoint"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="85" pc="268435941" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="86" pc="268435945" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="87" pc="268435958" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="90" pc="268435971" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="91" pc="268435995" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="92" pc="268435995" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="93" pc="268435995" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="94" pc="268436005" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="96" pc="268436015" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="98" pc="268436069" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="99" pc="268436096" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="100" pc="268436123" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="101" pc="268436150" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="102" pc="268436177" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="103" pc="268436197" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="104" pc="268436222" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="105" pc="268436249" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="106" pc="268436276" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="107" pc="268436303" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="108" pc="268436330" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="111" pc="268436381" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="112" pc="268436450" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="113" pc="268436474" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="114" pc="268436499" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="116" pc="268436515" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="118" pc="268436711" symbol="drawHashMarks"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="123" pc="268436933" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="124" pc="268436937" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="125" pc="268436937" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="126" pc="268436937" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="127" pc="268436950" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="131" pc="268436967" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="133" pc="268436977" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="134" pc="268436990" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="137" pc="268437003" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="138" pc="268437039" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="169" pc="268437083" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="170" pc="268437112" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="171" pc="268437122" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="172" pc="268437132" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="173" pc="268437141" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="174" pc="268437152" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="175" pc="268437191" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="176" pc="268437228" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="177" pc="268437244" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="178" pc="268437269" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="179" pc="268437308" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="180" pc="268437345" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="181" pc="268437367" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="182" pc="268437392" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="183" pc="268437431" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="184" pc="268437468" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="185" pc="268437490" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="186" pc="268437515" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="187" pc="268437554" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="188" pc="268437591" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="194" pc="268437613" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="196" pc="268437643" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="198" pc="268437656" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="199" pc="268437666" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="200" pc="268437677" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="201" pc="268437687" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="202" pc="268437698" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="203" pc="268437702" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="207" pc="268437798" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="210" pc="268437807" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="212" pc="268437836" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="214" pc="268437847" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="215" pc="268437886" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="216" pc="268437923" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="217" pc="268437939" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="219" pc="268437964" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="220" pc="268438003" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="221" pc="268438040" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="222" pc="268438062" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="224" pc="268438087" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="225" pc="268438126" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="226" pc="268438163" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="227" pc="268438185" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="229" pc="268438210" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="230" pc="268438249" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="231" pc="268438286" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="234" pc="268438308" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="236" pc="268438338" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="238" pc="268438351" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="239" pc="268438361" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="240" pc="268438372" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="241" pc="268438382" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="242" pc="268438393" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="243" pc="268438397" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="247" pc="268438493" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="250" pc="268438502" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="253" pc="268438531" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="254" pc="268438542" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="255" pc="268438581" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="256" pc="268438618" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="257" pc="268438634" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="258" pc="268438659" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="259" pc="268438698" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="260" pc="268438735" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="261" pc="268438757" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="262" pc="268438782" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="263" pc="268438821" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="264" pc="268438858" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="265" pc="268438880" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="266" pc="268438905" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="267" pc="268438944" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="268" pc="268438981" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="271" pc="268439003" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="273" pc="268439033" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="275" pc="268439046" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="276" pc="268439056" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="277" pc="268439067" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="278" pc="268439077" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="279" pc="268439088" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="280" pc="268439092" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="283" pc="268439188" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="285" pc="268439197" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="286" pc="268439233" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="288" pc="268439247" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="289" pc="268439261" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="290" pc="268439297" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="291" pc="268439341" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="292" pc="268439394" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="293" pc="268439441" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="16" lineNum="302" pc="268439492" symbol="onShow"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="17" lineNum="308" pc="268439497" symbol="onHide"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="18" lineNum="312" pc="268439502" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="19" lineNum="316" pc="268439507" symbol="onEnterSleep"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="41" pc="268439512" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="45" pc="268439524" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="46" pc="268439548" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="47" pc="268439719" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="48" pc="268439752" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="49" pc="268439804" symbol="WatchFace"/>
-        <entry filename="C:\\Windows\\System32\\Rez" id="26" lineNum="52" pc="268439850" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="44" pc="268435647" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="45" pc="268435651" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="46" pc="268435669" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="47" pc="268435698" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="48" pc="268435708" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="51" pc="268435742" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="52" pc="268435751" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="53" pc="268435760" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="11" lineNum="54" pc="268435769" symbol="initialize"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="58" pc="268435779" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="59" pc="268435783" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="12" lineNum="60" pc="268435820" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="78" pc="268435885" symbol="findCenterpoint"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="79" pc="268435889" symbol="findCenterpoint"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="80" pc="268435902" symbol="findCenterpoint"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="81" pc="268435924" symbol="findCenterpoint"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="13" lineNum="82" pc="268435946" symbol="findCenterpoint"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="86" pc="268435950" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="87" pc="268435954" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="88" pc="268435967" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="91" pc="268435980" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="92" pc="268436004" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="93" pc="268436004" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="94" pc="268436004" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="95" pc="268436014" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="97" pc="268436024" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="99" pc="268436078" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="100" pc="268436105" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="101" pc="268436132" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="102" pc="268436159" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="103" pc="268436186" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="104" pc="268436206" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="105" pc="268436231" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="106" pc="268436258" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="107" pc="268436285" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="108" pc="268436312" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="109" pc="268436339" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="112" pc="268436390" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="113" pc="268436459" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="114" pc="268436483" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="115" pc="268436508" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="117" pc="268436524" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="14" lineNum="119" pc="268436720" symbol="drawHashMarks"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="124" pc="268436942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="125" pc="268436946" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="126" pc="268436946" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="127" pc="268436946" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="128" pc="268436959" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="129" pc="268436976" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="130" pc="268436986" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="131" pc="268436996" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="132" pc="268437018" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="134" pc="268437031" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="136" pc="268437041" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="137" pc="268437054" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="140" pc="268437067" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="141" pc="268437103" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="172" pc="268437147" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="175" pc="268437176" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="176" pc="268437185" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="177" pc="268437196" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="178" pc="268437235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="179" pc="268437272" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="180" pc="268437288" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="181" pc="268437313" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="182" pc="268437352" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="183" pc="268437389" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="184" pc="268437411" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="185" pc="268437436" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="186" pc="268437475" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="187" pc="268437512" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="188" pc="268437534" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="189" pc="268437559" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="190" pc="268437598" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="191" pc="268437635" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="197" pc="268437657" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="199" pc="268437687" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="201" pc="268437700" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="202" pc="268437710" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="203" pc="268437721" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="204" pc="268437731" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="205" pc="268437742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="206" pc="268437746" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="210" pc="268437842" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="213" pc="268437851" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="215" pc="268437880" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="217" pc="268437891" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="218" pc="268437930" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="219" pc="268437967" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="220" pc="268437983" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="222" pc="268438008" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="223" pc="268438047" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="224" pc="268438084" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="225" pc="268438106" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="227" pc="268438131" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="228" pc="268438170" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="229" pc="268438207" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="230" pc="268438229" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="232" pc="268438254" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="233" pc="268438293" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="234" pc="268438330" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="237" pc="268438352" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="239" pc="268438382" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="241" pc="268438395" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="242" pc="268438405" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="243" pc="268438416" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="244" pc="268438426" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="245" pc="268438437" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="246" pc="268438441" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="250" pc="268438537" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="252" pc="268438546" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="256" pc="268438582" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="257" pc="268438593" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="258" pc="268438632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="259" pc="268438669" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="260" pc="268438688" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="261" pc="268438713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="262" pc="268438752" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="263" pc="268438789" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="264" pc="268438814" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="265" pc="268438839" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="266" pc="268438878" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="267" pc="268438915" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="268" pc="268438940" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="269" pc="268438965" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="270" pc="268439004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="271" pc="268439041" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="274" pc="268439066" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="276" pc="268439096" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="278" pc="268439109" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="279" pc="268439119" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="280" pc="268439130" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="281" pc="268439140" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="282" pc="268439151" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="283" pc="268439155" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="286" pc="268439251" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="289" pc="268439260" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="292" pc="268439289" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="293" pc="268439300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="294" pc="268439339" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="295" pc="268439376" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="296" pc="268439395" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="297" pc="268439420" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="298" pc="268439459" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="299" pc="268439496" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="300" pc="268439521" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="301" pc="268439546" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="302" pc="268439585" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="303" pc="268439622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="304" pc="268439647" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="305" pc="268439672" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="306" pc="268439711" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="307" pc="268439748" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="310" pc="268439773" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="312" pc="268439803" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="314" pc="268439816" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="315" pc="268439826" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="316" pc="268439837" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="317" pc="268439847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="318" pc="268439858" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="319" pc="268439862" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="322" pc="268439958" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="326" pc="268439967" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="327" pc="268440003" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="329" pc="268440017" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="330" pc="268440031" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="331" pc="268440067" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="332" pc="268440111" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="333" pc="268440164" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="15" lineNum="334" pc="268440211" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="16" lineNum="343" pc="268440262" symbol="onShow"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="17" lineNum="349" pc="268440267" symbol="onHide"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="18" lineNum="353" pc="268440272" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Documents\\WatchFace\\vivoActiveWF\\DinosaurWatchFace\\source\\DinosaurWatchFaceView.mc" id="19" lineNum="357" pc="268440277" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="45" pc="268440282" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="49" pc="268440294" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="50" pc="268440318" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="51" pc="268440489" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="52" pc="268440522" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="53" pc="268440574" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Will MacIntyre\\Desktop\\Rez" id="26" lineNum="56" pc="268440620" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="52" symbol="dateBuffer"/>
+        <entry field="true" id="60" symbol="dateBuffer"/>
+        <entry field="true" id="69" symbol="f_armO"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry field="true" id="21" symbol="fntBody180"/>
+        <entry field="true" id="25" symbol="fntBody180"/>
+        <entry field="true" id="19" symbol="fntArmO0"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="20" symbol="fntBody90"/>
+        <entry field="true" id="24" symbol="fntBody90"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="8388637" module="true" symbol="Communications"/>
-        <entry field="true" id="24" symbol="fntBodyPnk90"/>
+        <entry field="true" id="28" symbol="fntBodyPnk90"/>
+        <entry field="true" id="22" symbol="fntArmO270"/>
         <entry id="8390097" method="true" symbol="onPartialUpdate"/>
-        <entry field="true" id="40" symbol="ColorBlue"/>
-        <entry field="true" id="63" symbol="xoff"/>
-        <entry field="true" id="60" symbol="f_arm"/>
-        <entry field="true" id="23" symbol="fntBodyPnk0"/>
+        <entry field="true" id="48" symbol="ColorBlue"/>
+        <entry field="true" id="73" symbol="xoff"/>
+        <entry field="true" id="70" symbol="f_arm"/>
+        <entry field="true" id="27" symbol="fntBodyPnk0"/>
         <entry field="true" id="15" symbol="fntArm0"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="8388645" module="true" symbol="Time"/>
-        <entry field="true" id="51" symbol="offscreenBuffer"/>
+        <entry field="true" id="20" symbol="fntArmO90"/>
+        <entry field="true" id="59" symbol="offscreenBuffer"/>
+        <entry field="true" id="43" symbol="ArmO0"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="47" symbol="ColorWhite"/>
+        <entry field="true" id="55" symbol="ColorWhite"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry field="true" id="18" symbol="fntArm270"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="62" symbol="centerpoint"/>
-        <entry field="true" id="46" symbol="ColorBlack"/>
+        <entry field="true" id="72" symbol="centerpoint"/>
+        <entry field="true" id="54" symbol="ColorBlack"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry field="true" id="16" symbol="fntArm90"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="41" symbol="ColorRed"/>
-        <entry field="true" id="59" symbol="f_body"/>
-        <entry field="true" id="58" symbol="dinoArm"/>
-        <entry field="true" id="42" symbol="ForegroundColorTitle"/>
+        <entry field="true" id="49" symbol="ColorRed"/>
+        <entry field="true" id="68" symbol="f_body"/>
+        <entry field="true" id="66" symbol="dinoArm"/>
+        <entry field="true" id="50" symbol="ForegroundColorTitle"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="48" symbol="AppName"/>
-        <entry field="true" id="61" symbol="f_bodyPnk"/>
+        <entry field="true" id="56" symbol="AppName"/>
+        <entry field="true" id="71" symbol="f_bodyPnk"/>
+        <entry field="true" id="21" symbol="fntArmO180"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-        <entry field="true" id="64" symbol="yoff"/>
+        <entry field="true" id="74" symbol="yoff"/>
         <entry field="true" id="8388962" symbol="temperature"/>
-        <entry field="true" id="38" symbol="Arm45"/>
-        <entry id="66" method="true" symbol="findCenterpoint"/>
+        <entry field="true" id="42" symbol="Arm45"/>
+        <entry id="76" method="true" symbol="findCenterpoint"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="37" symbol="Arm30"/>
-        <entry field="true" id="26" symbol="fntBodyPnk270"/>
-        <entry field="true" id="34" symbol="BodyPnk45"/>
-        <entry field="true" id="36" symbol="Arm15"/>
-        <entry field="true" id="50" symbol="dndIcon"/>
+        <entry field="true" id="41" symbol="Arm30"/>
+        <entry field="true" id="30" symbol="fntBodyPnk270"/>
+        <entry field="true" id="38" symbol="BodyPnk45"/>
+        <entry field="true" id="40" symbol="Arm15"/>
+        <entry field="true" id="58" symbol="dndIcon"/>
         <entry field="true" id="14" symbol="LauncherIcon"/>
-        <entry field="true" id="33" symbol="BodyPnk30"/>
-        <entry field="true" id="32" symbol="BodyPnk15"/>
+        <entry field="true" id="37" symbol="BodyPnk30"/>
+        <entry field="true" id="36" symbol="BodyPnk15"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="30" symbol="Body45"/>
+        <entry field="true" id="34" symbol="Body45"/>
         <entry id="11" object="true" symbol="DinosaurWatchFaceView"/>
         <entry field="true" id="17" symbol="fntArm180"/>
-        <entry field="true" id="29" symbol="Body30"/>
+        <entry field="true" id="33" symbol="Body30"/>
+        <entry field="true" id="67" symbol="dinoArmO"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry field="true" id="28" symbol="Body15"/>
+        <entry field="true" id="32" symbol="Body15"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="44" symbol="ColorDarkGray"/>
+        <entry field="true" id="52" symbol="ColorDarkGray"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="8389670" symbol="screenShape"/>
-        <entry field="true" id="65" symbol="secondo"/>
+        <entry field="true" id="46" symbol="ArmO45"/>
+        <entry field="true" id="75" symbol="secondo"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="45" symbol="ArmO30"/>
         <entry field="true" id="8389348" symbol="font"/>
-        <entry field="true" id="39" symbol="ColorLightGray"/>
-        <entry field="true" id="54" symbol="screenCenterPoint"/>
-        <entry field="true" id="35" symbol="Arm0"/>
+        <entry field="true" id="47" symbol="ColorLightGray"/>
+        <entry field="true" id="62" symbol="screenCenterPoint"/>
+        <entry field="true" id="44" symbol="ArmO15"/>
+        <entry field="true" id="39" symbol="Arm0"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="67" method="true" symbol="drawHashMarks"/>
-        <entry field="true" id="49" symbol="isAwake"/>
-        <entry field="true" id="43" symbol="BackgroundColorTitle"/>
-        <entry field="true" id="57" symbol="dinoBodyPnk"/>
-        <entry field="true" id="22" symbol="fntBody270"/>
+        <entry id="77" method="true" symbol="drawHashMarks"/>
+        <entry field="true" id="57" symbol="isAwake"/>
+        <entry field="true" id="51" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="65" symbol="dinoBodyPnk"/>
+        <entry field="true" id="26" symbol="fntBody270"/>
         <entry id="9" object="true" symbol="AnalogWatch"/>
         <entry id="13" module="true" symbol="Layouts"/>
-        <entry field="true" id="25" symbol="fntBodyPnk180"/>
+        <entry field="true" id="29" symbol="fntBodyPnk180"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="45" symbol="MilitaryFormatTitle"/>
-        <entry field="true" id="19" symbol="fntBody0"/>
-        <entry field="true" id="55" symbol="fullScreenRefresh"/>
+        <entry field="true" id="53" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="23" symbol="fntBody0"/>
+        <entry field="true" id="63" symbol="fullScreenRefresh"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="56" symbol="dinoBody"/>
-        <entry field="true" id="53" symbol="curClip"/>
+        <entry field="true" id="64" symbol="dinoBody"/>
+        <entry field="true" id="61" symbol="curClip"/>
         <entry id="12" module="true" symbol="Menus"/>
-        <entry field="true" id="27" symbol="Body0"/>
+        <entry field="true" id="31" symbol="Body0"/>
         <entry field="true" id="10" symbol="partialUpdatesAllowed"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="31" symbol="BodyPnk0"/>
+        <entry field="true" id="35" symbol="BodyPnk0"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
@@ -267,62 +306,72 @@
         <entry endPc="268435572" name="dc" stackId="1" startPc="268435502"/>
         <entry endPc="268435600" name="state" stackId="1" startPc="268435595"/>
         <entry endPc="268435605" name="state" stackId="1" startPc="268435600"/>
-        <entry endPc="268435876" name="dc" stackId="1" startPc="268435770"/>
-        <entry endPc="268435940" name="di" stackId="2" startPc="268435880"/>
-        <entry endPc="268435941" name="im" stackId="1" startPc="268435876"/>
-        <entry endPc="268436378" name="i" stackId="10" startPc="268436069"/>
-        <entry endPc="268436378" name="eY" stackId="7" startPc="268435995"/>
-        <entry endPc="268436378" name="eX" stackId="6" startPc="268435995"/>
-        <entry endPc="268436378" name="innerRad" stackId="9" startPc="268435995"/>
-        <entry endPc="268436378" name="outerRad" stackId="8" startPc="268435995"/>
-        <entry endPc="268436378" name="sY" stackId="5" startPc="268435995"/>
-        <entry endPc="268436378" name="sX" stackId="4" startPc="268435995"/>
-        <entry endPc="268436919" name="upperX" stackId="14" startPc="268436474"/>
-        <entry endPc="268436919" name="dx" stackId="13" startPc="268436474"/>
-        <entry endPc="268436932" name="i" stackId="12" startPc="268436474"/>
-        <entry endPc="268436932" name="coords" stackId="11" startPc="268436381"/>
-        <entry endPc="268436932" name="height" stackId="3" startPc="268435945"/>
-        <entry endPc="268436932" name="width" stackId="2" startPc="268435945"/>
-        <entry endPc="268436933" name="dc" stackId="1" startPc="268435941"/>
-        <entry endPc="268437241" name="arr" stackId="8" startPc="268437152"/>
-        <entry endPc="268437364" name="arr" stackId="9" startPc="268437269"/>
-        <entry endPc="268437487" name="arr" stackId="10" startPc="268437392"/>
-        <entry endPc="268437610" name="arr" stackId="11" startPc="268437515"/>
-        <entry endPc="268437785" name="xpos" stackId="15" startPc="268437643"/>
-        <entry endPc="268437785" name="char" stackId="16" startPc="268437643"/>
-        <entry endPc="268437785" name="packed_value" stackId="13" startPc="268437643"/>
-        <entry endPc="268437785" name="ypos" stackId="14" startPc="268437643"/>
-        <entry endPc="268437798" name="i" stackId="12" startPc="268437643"/>
-        <entry endPc="268437936" name="arr" stackId="17" startPc="268437847"/>
-        <entry endPc="268438059" name="arr" stackId="18" startPc="268437964"/>
-        <entry endPc="268438182" name="arr" stackId="19" startPc="268438087"/>
-        <entry endPc="268438305" name="arr" stackId="20" startPc="268438210"/>
-        <entry endPc="268438480" name="xpos" stackId="24" startPc="268438338"/>
-        <entry endPc="268438480" name="char" stackId="25" startPc="268438338"/>
-        <entry endPc="268438480" name="packed_value" stackId="22" startPc="268438338"/>
-        <entry endPc="268438480" name="ypos" stackId="23" startPc="268438338"/>
-        <entry endPc="268438493" name="i" stackId="21" startPc="268438338"/>
-        <entry endPc="268438631" name="arr" stackId="26" startPc="268438542"/>
-        <entry endPc="268438754" name="arr" stackId="27" startPc="268438659"/>
-        <entry endPc="268438877" name="arr" stackId="28" startPc="268438782"/>
-        <entry endPc="268439000" name="arr" stackId="29" startPc="268438905"/>
-        <entry endPc="268439175" name="xpos" stackId="33" startPc="268439033"/>
-        <entry endPc="268439175" name="char" stackId="34" startPc="268439033"/>
-        <entry endPc="268439175" name="packed_value" stackId="31" startPc="268439033"/>
-        <entry endPc="268439175" name="ypos" stackId="32" startPc="268439033"/>
-        <entry endPc="268439188" name="i" stackId="30" startPc="268439033"/>
-        <entry endPc="268439491" name="height" stackId="3" startPc="268436937"/>
-        <entry endPc="268439491" name="font" stackId="35" startPc="268436937"/>
-        <entry endPc="268439491" name="min" stackId="6" startPc="268436937"/>
-        <entry endPc="268439491" name="hr" stackId="7" startPc="268436937"/>
-        <entry endPc="268439491" name="width" stackId="2" startPc="268436937"/>
-        <entry endPc="268439491" name="clockTime" stackId="5" startPc="268436937"/>
-        <entry endPc="268439491" name="screenWidth" stackId="4" startPc="268436937"/>
-        <entry endPc="268439492" name="dc" stackId="1" startPc="268436933"/>
-        <entry endPc="268439877" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268439524"/>
-        <entry endPc="268439877" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268439524"/>
-        <entry endPc="268439877" name="rez_cmp_local_custom_drawable_82929184527932923117" stackId="2" startPc="268439524"/>
-        <entry endPc="268439878" name="dc" stackId="1" startPc="268439512"/>
+        <entry endPc="268435885" name="dc" stackId="1" startPc="268435779"/>
+        <entry endPc="268435949" name="di" stackId="2" startPc="268435889"/>
+        <entry endPc="268435950" name="im" stackId="1" startPc="268435885"/>
+        <entry endPc="268436387" name="i" stackId="10" startPc="268436078"/>
+        <entry endPc="268436387" name="eY" stackId="7" startPc="268436004"/>
+        <entry endPc="268436387" name="eX" stackId="6" startPc="268436004"/>
+        <entry endPc="268436387" name="innerRad" stackId="9" startPc="268436004"/>
+        <entry endPc="268436387" name="outerRad" stackId="8" startPc="268436004"/>
+        <entry endPc="268436387" name="sY" stackId="5" startPc="268436004"/>
+        <entry endPc="268436387" name="sX" stackId="4" startPc="268436004"/>
+        <entry endPc="268436928" name="upperX" stackId="14" startPc="268436483"/>
+        <entry endPc="268436928" name="dx" stackId="13" startPc="268436483"/>
+        <entry endPc="268436941" name="i" stackId="12" startPc="268436483"/>
+        <entry endPc="268436941" name="coords" stackId="11" startPc="268436390"/>
+        <entry endPc="268436941" name="height" stackId="3" startPc="268435954"/>
+        <entry endPc="268436941" name="width" stackId="2" startPc="268435954"/>
+        <entry endPc="268436942" name="dc" stackId="1" startPc="268435950"/>
+        <entry endPc="268437285" name="arr" stackId="9" startPc="268437196"/>
+        <entry endPc="268437408" name="arr" stackId="10" startPc="268437313"/>
+        <entry endPc="268437531" name="arr" stackId="11" startPc="268437436"/>
+        <entry endPc="268437654" name="arr" stackId="12" startPc="268437559"/>
+        <entry endPc="268437829" name="xpos" stackId="16" startPc="268437687"/>
+        <entry endPc="268437829" name="char" stackId="17" startPc="268437687"/>
+        <entry endPc="268437829" name="packed_value" stackId="14" startPc="268437687"/>
+        <entry endPc="268437829" name="ypos" stackId="15" startPc="268437687"/>
+        <entry endPc="268437842" name="i" stackId="13" startPc="268437687"/>
+        <entry endPc="268437980" name="arr" stackId="18" startPc="268437891"/>
+        <entry endPc="268438103" name="arr" stackId="19" startPc="268438008"/>
+        <entry endPc="268438226" name="arr" stackId="20" startPc="268438131"/>
+        <entry endPc="268438349" name="arr" stackId="21" startPc="268438254"/>
+        <entry endPc="268438524" name="xpos" stackId="25" startPc="268438382"/>
+        <entry endPc="268438524" name="char" stackId="26" startPc="268438382"/>
+        <entry endPc="268438524" name="packed_value" stackId="23" startPc="268438382"/>
+        <entry endPc="268438524" name="ypos" stackId="24" startPc="268438382"/>
+        <entry endPc="268438537" name="i" stackId="22" startPc="268438382"/>
+        <entry endPc="268438685" name="arr" stackId="27" startPc="268438593"/>
+        <entry endPc="268438811" name="arr" stackId="28" startPc="268438713"/>
+        <entry endPc="268438937" name="arr" stackId="29" startPc="268438839"/>
+        <entry endPc="268439063" name="arr" stackId="30" startPc="268438965"/>
+        <entry endPc="268439238" name="xpos" stackId="34" startPc="268439096"/>
+        <entry endPc="268439238" name="char" stackId="35" startPc="268439096"/>
+        <entry endPc="268439238" name="packed_value" stackId="32" startPc="268439096"/>
+        <entry endPc="268439238" name="ypos" stackId="33" startPc="268439096"/>
+        <entry endPc="268439251" name="i" stackId="31" startPc="268439096"/>
+        <entry endPc="268439392" name="arr" stackId="36" startPc="268439300"/>
+        <entry endPc="268439518" name="arr" stackId="37" startPc="268439420"/>
+        <entry endPc="268439644" name="arr" stackId="38" startPc="268439546"/>
+        <entry endPc="268439770" name="arr" stackId="39" startPc="268439672"/>
+        <entry endPc="268439945" name="xpos" stackId="43" startPc="268439803"/>
+        <entry endPc="268439945" name="char" stackId="44" startPc="268439803"/>
+        <entry endPc="268439945" name="packed_value" stackId="41" startPc="268439803"/>
+        <entry endPc="268439945" name="ypos" stackId="42" startPc="268439803"/>
+        <entry endPc="268439958" name="i" stackId="40" startPc="268439803"/>
+        <entry endPc="268440261" name="hrInc" stackId="8" startPc="268436946"/>
+        <entry endPc="268440261" name="height" stackId="3" startPc="268436946"/>
+        <entry endPc="268440261" name="font" stackId="45" startPc="268436946"/>
+        <entry endPc="268440261" name="min" stackId="6" startPc="268436946"/>
+        <entry endPc="268440261" name="hr" stackId="7" startPc="268436946"/>
+        <entry endPc="268440261" name="width" stackId="2" startPc="268436946"/>
+        <entry endPc="268440261" name="clockTime" stackId="5" startPc="268436946"/>
+        <entry endPc="268440261" name="screenWidth" stackId="4" startPc="268436946"/>
+        <entry endPc="268440262" name="dc" stackId="1" startPc="268436942"/>
+        <entry endPc="268440647" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268440294"/>
+        <entry endPc="268440647" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268440294"/>
+        <entry endPc="268440647" name="rez_cmp_local_custom_drawable_10082124801866445293" stackId="2" startPc="268440294"/>
+        <entry endPc="268440648" name="dc" stackId="1" startPc="268440282"/>
     </localVars>
     <annotations/>
     <functions>
@@ -392,10 +441,10 @@
         <dataEntry offset="324" parentId="Rez" symbolId="Drawables" type="module"/>
         <dataEntry offset="363" parentId="Rez" symbolId="Menus" type="module"/>
         <dataEntry offset="394" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="521" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="648" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="687" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="798" parentId="globals" symbolId="DinosaurWatchFaceView" type="class"/>
-        <dataEntry offset="1061" parentId="globals" symbolId="AnalogWatch" type="class"/>
+        <dataEntry offset="553" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="712" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="751" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="862" parentId="globals" symbolId="DinosaurWatchFaceView" type="class"/>
+        <dataEntry offset="1141" parentId="globals" symbolId="AnalogWatch" type="class"/>
     </dataEntryOffsetMappings>
 </debugInfo>

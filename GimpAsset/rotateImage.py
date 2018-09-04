@@ -7,14 +7,17 @@ def rotateAndSaveImages():
     im1 = Image.open("DinosaurBody2.png")
     im2 = Image.open("DinosaurArm2.png")
     im5 = Image.open("DinosaurBodyPnk.png")
+    im7 = Image.open("DinosaurArmO2.png")
     print('rotating images')
     for ang in range(0, 360, 6):
         im3 = im1.rotate(-ang)
         im4 = im2.rotate(-ang)
         im6 = im5.rotate(-ang)
+        im8 = im7.rotate(-ang)
         im3.save("BodyRotate/dinoBody" + str(ang) + ".png", format="png")
         im4.save("ArmRotate/dinoArm" + str(ang) + ".png", format="png")
         im6.save("BodyPnkRotate/dinoBodyPnk" + str(ang) + ".png", format="png")
+        im8.save("ArmORotate/dinoArmO" + str(ang) + ".png", format="png")
     print('finished rotating')
 
 def smallifyToMap():
@@ -23,10 +26,10 @@ def smallifyToMap():
     with open("ArraysForWatch.txt", "w+") as text_file:
         text_file.write("//Arrays: ")
 
-    for name in ("Body","BodyPnk", "Arm"):
+    for name in ("Body", "BodyPnk", "Arm", "ArmO"):
         width = 24
         height = 24
-        pIX, pIY = 600, 600
+        pIX, pIY = 602, 602
         pX, pY = 0,0
         fileAng = 0
         charOffset = 0
@@ -63,7 +66,7 @@ def smallifyToMap():
                     t = ImageStat.Stat(a).sum
                     if any(g > 0 for g in t):
                         try:
-                            if pX >= pIX:
+                            if pX >= pIX or pX + width >= pIX:
                                 pX = 0
                                 pY += height
                             blank_image.paste(a, (pX, pY))
