@@ -18,7 +18,7 @@ def smallifyToMap():
     ##Combine the save images into one spritemap and create a font file
 
     with open("ArraysForWatch.txt", "w+") as text_file:
-        text_file.write("Arrays: ")
+        text_file.write("//Arrays: ")
 
     for name in ("Body", "Arm"):
         width = 24
@@ -66,7 +66,7 @@ def smallifyToMap():
                             blank_text += "\nchar id=" + str(int(charOffset + 33)) + " x=" + str(int(pX)) + " y=" + str(int(pY)) + " width=24 height=24 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15"
                             # print(str(int(charOffset + 33)) + " " + str(pX) + " " + str(pY))
                             # print(bin((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
-                            temp = str((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY)
+                            temp = str(hex((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
                             if enc_Arr.endswith("["):
                                 enc_Arr += temp
                             elif enc_Arr.endswith("]"):
@@ -81,7 +81,7 @@ def smallifyToMap():
                             print(e)
         blank_image.save("out" + name + str(fileAng) +".png")
         with open("ArraysForWatch.txt", "a+") as text_file:
-            text_file.write("\n" + enc_Arr + "]]")
+            text_file.write("\n" + enc_Arr + "]];")
     print('finished tiling')
 
 def main():
