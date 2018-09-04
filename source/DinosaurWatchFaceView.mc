@@ -128,8 +128,10 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
     	var min = clockTime.min;
 	    var hr = clockTime.hour % 12;
-    	var hrInc = (min.toFloat() / 60 * hr);
-    	hrInc = hrInc.toNumber();
+    	var hrInc = (min.toFloat() / 60).toNumber() % 15;
+//    	var hrOff = hrInc.toNumber() / 
+    	
+    	//hrInc = hrInc.toNumber();
      // We always want to refresh the full screen when we get a regular onUpdate call.
         fullScreenRefresh = true;
 
@@ -250,25 +252,25 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   f_bodyPnk = null;
 	   //draw the dino arm
 	   dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-	   System.println(hr);
+	  // System.println(hr);
 	   System.println(hrInc);
 	   
 	   if (hr < 3){
 	   	   	f_armO = loadResource(Rez.Fonts.fntArmO90); 
 	   		var arr = WatchUi.loadResource(Rez.JsonData.ArmO15);	   		
-	   		dinoArm = arr[hr + hrInc];
+	   		dinoArm = arr[hrInc];
 	   } else if (hr >=3 && hr < 6){
 	    	f_armO = loadResource(Rez.Fonts.fntArmO180);	  
 	   	   	var arr = WatchUi.loadResource(Rez.JsonData.ArmO30);
-	   		dinoArm = arr[hr - 3 + hrInc];	 
+	   		dinoArm = arr[hrInc];	 
 	   } else if (hr >=6 && hr < 9){
 	   		f_armO = loadResource(Rez.Fonts.fntArmO270);
 	   	   	var arr = WatchUi.loadResource(Rez.JsonData.ArmO45);
-	   		dinoArm = arr[hr - 6 + hrInc];	   
+	   		dinoArm = arr[ hrInc];	   
  	   } else if (hr >=9 && hr <= 12){
  	        f_armO = loadResource(Rez.Fonts.fntArmO0);
  	   	   	var arr = WatchUi.loadResource(Rez.JsonData.ArmO0);
-	   		dinoArm = arr[hr - 9 + hrInc];	  	   
+	   		dinoArm = arr[ hrInc];	  	   
 	   }
 	   
 	   System.println(dinoArm);
@@ -293,19 +295,19 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   if (hr < 3){
 	   	   	f_arm = loadResource(Rez.Fonts.fntArm90); 
 	   		var arr = WatchUi.loadResource(Rez.JsonData.Arm15);	   		
-	   		dinoArm = arr[hr + hrInc];
+	   		dinoArm = arr[hrInc];
 	   } else if (hr >=3 && hr < 6){
 	    	f_arm = loadResource(Rez.Fonts.fntArm180);	  
 	   	   	var arr = WatchUi.loadResource(Rez.JsonData.Arm30);
-	   		dinoArm = arr[hr - 3 + hrInc];	 
+	   		dinoArm = arr[hrInc];	 
 	   } else if (hr >=6 && hr < 9){
 	   		f_arm = loadResource(Rez.Fonts.fntArm270);
 	   	   	var arr = WatchUi.loadResource(Rez.JsonData.Arm45);
-	   		dinoArm = arr[hr - 6 + hrInc];	   
+	   		dinoArm = arr[hrInc];	   
  	   } else if (hr >=9 && hr <= 12){
  	        f_arm = loadResource(Rez.Fonts.fntArm0);
  	   	   	var arr = WatchUi.loadResource(Rez.JsonData.Arm0);
-	   		dinoArm = arr[hr - 9 + hrInc];	  	   
+	   		dinoArm = arr[hrInc];	  	   
 	   }
 		//System.println(dinoBody);
        for(var i = 0; i < dinoArm.size(); i++) {
