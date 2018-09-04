@@ -6,13 +6,16 @@ def rotateAndSaveImages():
     ##Grab the images, rotate them and save to a folder
     im1 = Image.open("DinosaurBody2.png")
     im2 = Image.open("DinosaurArm2.png")
+    im5 = Image.open("DinosaurBodyPnk.png")
     print('rotating images')
     for ang in range(0, 360, 6):
-        im3 = im1.rotate(ang)
-        im4 = im2.rotate(ang)
+        im3 = im1.rotate(-ang)
+        im4 = im2.rotate(-ang)
+        im6 = im5.rotate(-ang)
         im3.save("BodyRotate/dinoBody" + str(ang) + ".png", format="png")
         im4.save("ArmRotate/dinoArm" + str(ang) + ".png", format="png")
-        print('finished rotating')
+        im6.save("BodyPnkRotate/dinoBodyPnk" + str(ang) + ".png", format="png")
+    print('finished rotating')
 
 def smallifyToMap():
     ##Combine the save images into one spritemap and create a font file
@@ -20,7 +23,7 @@ def smallifyToMap():
     with open("ArraysForWatch.txt", "w+") as text_file:
         text_file.write("//Arrays: ")
 
-    for name in ("Body", "Arm"):
+    for name in ("Body","BodyPnk", "Arm"):
         width = 24
         height = 24
         pIX, pIY = 600, 600
@@ -34,7 +37,7 @@ def smallifyToMap():
             currT = ang/6
             if pY >= pIY or (pY == 0 and pX == 0) or currT == 30 or currT == 15 or currT == 45:
                 if pY >= pIY or ang/6 == 30 or ang/6 == 15 or currT == 45:
-                    enc_Arr += "]]"
+                    enc_Arr += "]] </jsonData>"
                     with open("ArraysForWatch.txt", "a+") as text_file:
                         text_file.write("\n" + enc_Arr)
                     blank_image.save("out" + name + str(fileAng) +".png")
@@ -43,7 +46,8 @@ def smallifyToMap():
                 blank_text += "\ncommon lineHeight=24 base=24 scaleW=256 scaleH=256 pages=1 packed=0"
                 blank_text += "\npage id=0 file=\"out" + name + str(ang) + ".png\""
                 blank_text += "\nchars count=60"
-                enc_Arr = "const " + name + str(ang) + " = [["
+                enc_Arr = 	"<jsonData id=\"" + name + str(int(currT)) + "\"> [["
+                #enc_Arr = "const " + name + str(ang) + " = [["
                 pX, pY, charOffset = 0, 0, 0
                 fileAng = ang
                 print('working on ' + name + str(fileAng))
@@ -66,7 +70,7 @@ def smallifyToMap():
                             blank_text += "\nchar id=" + str(int(charOffset + 33)) + " x=" + str(int(pX)) + " y=" + str(int(pY)) + " width=24 height=24 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15"
                             # print(str(int(charOffset + 33)) + " " + str(pX) + " " + str(pY))
                             # print(bin((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
-                            temp = str(hex((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
+                            temp = str(((int(charOffset + 33) << 20) ^ ((j) << 10 ) ^ i))
                             if enc_Arr.endswith("["):
                                 enc_Arr += temp
                             elif enc_Arr.endswith("]"):
@@ -81,11 +85,11 @@ def smallifyToMap():
                             print(e)
         blank_image.save("out" + name + str(fileAng) +".png")
         with open("ArraysForWatch.txt", "a+") as text_file:
-            text_file.write("\n" + enc_Arr + "]];")
+            text_file.write("\n" + enc_Arr + "]] </jsonData>")
     print('finished tiling')
 
 def main():
-    #rotateAndSaveImages()
+    rotateAndSaveImages()
     smallifyToMap()
     print("done")
 
