@@ -81,7 +81,7 @@ def smallifyToMap():
                             print(e)
         blank_image.save("out" + name + str(fileAng) +".png")
         with open("ArraysForWatch.txt", "a+") as text_file:
-            text_file.write("\n" + enc_Arr)
+            text_file.write("\n" + enc_Arr + "]]")
     print('finished tiling')
 
 def main():
