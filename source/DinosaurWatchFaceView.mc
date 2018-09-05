@@ -58,20 +58,6 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
         screenCenterPoint = [dc.getWidth()/2, dc.getHeight()/2];
-        //WatchUi.animate( dinoBody, :locX, WatchUi.ANIM_TYPE_LINEAR, 10, dc.getWidth() + 50, 10, null );
-       // WatchUi.animate( dinoArm, :locX, WatchUi.ANIM_TYPE_LINEAR, 10, dc.getWidth() + 50, 10, null );
-        //dinoArm = new Rez.Drawables.dinoArm();
-//        dinoBody.setSize(dc.getWidth(), dc.getHeight());
-		
-
-		//Calc the centerpoint of the images
-//		var di = findCenterpoint(dinoBody);
-//		var diA = findCenterpoint(dinoArm);
-		//Then attempt to set picture to centered
-		//dinoBody.setLocation(screenCenterPoint[0] - di[0],screenCenterPoint[1] - di[1]);
-       // dinoArm.setLocation(screenCenterPoint[0] - diA[0],screenCenterPoint[1]- diA[1]);
-       
-
     }
 
     
@@ -126,9 +112,16 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
     	var height;
         var screenWidth = dc.getWidth();
         var clockTime = System.getClockTime();
-    	var min = clockTime.min;
+    	var min = clockTime.min; //prob at 3 min, 28 min
 	    var hr = clockTime.hour % 12;
-    	var hrInc = (min.toFloat() / 60).toNumber() % 15;
+    	var hrInc =  (hr + min / 60.0); //(((clockTime.hour % 12) * 60) + clockTime.min);
+//        System.println(hrInc);
+//        System.println(((hrInc - (hrInc.toNumber().toFloat())) * 5).toNumber());
+//        System.println((hrInc.toNumber() % 5));
+        hrInc =((hr % 3) * 5 + ((hrInc - (hrInc.toNumber().toFloat())) * 5).toNumber()) ;  //(((hrInc / (12 * 60.0)) *  180 / Math.PI).toNumber() % 90) / 6;
+    	
+    	//System.println(hr);
+//	    System.println(hrInc);   
 //    	var hrOff = hrInc.toNumber() / 
     	
     	//hrInc = hrInc.toNumber();
@@ -141,33 +134,6 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         // Fill the entire background with Black.
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
-
-        // Draw the hour hand. Convert it to minutes and compute the angle.
-//        hourHandAngle = (((clockTime.hour % 12) * 60) + clockTime.min);
-//        hourHandAngle = hourHandAngle / (12 * 60.0);
-//        hourHandAngle = hourHandAngle * Math.PI * 2;
-//        
-//        // Draw the minute hand.
-       // minuteHandAngle = (clockTime.min / 60.0) * Math.PI * 2;
-		
-		
-       // dc.drawText(dc.getWidth()/2-48,dc.getHeight()/2, f_body0, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-//       	for (var i = 0; i < 3; i += 1) {
-//       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2, f_body0, (i + 33).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-//       	}
-//        for (var i = 0; i < 3; i += 1) {
-//       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2 + 24, f_body0, (i + 33 +3).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-//       	}
-//       	for (var i = 0; i < 3; i += 1) {
-//       		dc.drawText(dc.getWidth()/2-48+i*24,dc.getHeight()/2 + 24*2, f_body0, (i + 33 +6).toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-//       	}
-       // dc.drawText(dc.getWidth()/2-24,dc.getHeight()/2, f_body0, secondo.toChar() + 10 , Graphics.TEXT_JUSTIFY_CENTER);
-       // dc.drawText(dc.getWidth()/2,dc.getHeight()/2, f_body180, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-       // dc.drawText(dc.getWidth()/2+48,dc.getHeight()/2, f_body306, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-       // dc.drawText(dc.getWidth()/2+24,dc.getHeight()/2, f_arm0, secondo.toChar() , Graphics.TEXT_JUSTIFY_CENTER);
-        //draw the dinosaur
-       // dinoBody.draw(dc);
-		//dinoArm.draw(dc);
 		
 		
 		//draw the dino body
@@ -195,7 +161,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   
 	   
 
-		//System.println(dinoBody);
+//		System.println(dinoBody);
        for(var i = 0; i < dinoBody.size(); i++) {
        
 	        var packed_value = dinoBody[i];
@@ -205,6 +171,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	        var xpos = packed_value & 1023;
 	        packed_value >>= 10;
 	        var char = packed_value;
+//	        System.print(char + ", ");
 	        dc.drawText(xpos + dc.getWidth()/8,ypos+ dc.getHeight()/8,f_body,char.toChar(),Graphics.TEXT_JUSTIFY_CENTER);
 	       
 	   }
@@ -252,8 +219,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   f_bodyPnk = null;
 	   //draw the dino arm
 	   dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-	  // System.println(hr);
-	   System.println(hrInc);
+
 	   
 	   if (hr < 3){
 	   	   	f_armO = loadResource(Rez.Fonts.fntArmO90); 
@@ -270,10 +236,10 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
  	   } else if (hr >=9 && hr <= 12){
  	        f_armO = loadResource(Rez.Fonts.fntArmO0);
  	   	   	var arr = WatchUi.loadResource(Rez.JsonData.ArmO0);
-	   		dinoArm = arr[ hrInc];	  	   
+	   		dinoArm = arr[hrInc];	  	   
 	   }
 	   
-	   System.println(dinoArm);
+//	   System.println(dinoArm);
        for(var i = 0; i < dinoArm.size(); i++) {
        
 	        var packed_value = dinoArm[i];
