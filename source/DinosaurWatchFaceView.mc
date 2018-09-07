@@ -108,12 +108,12 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 				
 		drawTiling(dc, "min", 0xAAFF00, Graphics.COLOR_BLACK, fontArr[0], jsonArr[0], hr, min);
-//		
-//	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[1], jsonArr[1], hr, min);
-//	   
-//	   	drawTiling(dc, "hr", Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);
-//
-// 		drawTiling(dc, "hr", 0x00FF00, Graphics.COLOR_TRANSPARENT, fontArr[2], jsonArr[2], hr, min);
+		
+	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[1], jsonArr[1], hr, min);
+	   
+	   	drawTiling(dc, "hr", Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);
+
+ 		drawTiling(dc, "hr", 0x00FF00, Graphics.COLOR_TRANSPARENT, fontArr[2], jsonArr[2], hr, min);
 	
 
 		// Draw the clock hash marks
