@@ -23,7 +23,7 @@ def rotateAndSaveImages():
 def smallifyToMap():
     ##Combine the save images into one spritemap and create a font file
 
-    with open("ArraysForWatch.txt", "w+") as text_file:
+    with open("out/ArraysForWatch.txt", "w+") as text_file:
         text_file.write("//Arrays: ")
 
     for name in ("Body", "BodyPnk", "Arm", "ArmO"):
@@ -33,22 +33,23 @@ def smallifyToMap():
         pX, pY = 0,0
         fileAng = 0
         charOffset = 0
-
+        oldpX = 0
+        oldChar = 0
         ##do this for each image representing a minute/every 6 degrees
         for ang in range(0, 360, 6):
-            charOffset += ang/6
+            #charOffset += ang/6
             currT = ang/6
             if pY >= pIY or (pY == 0 and pX == 0) or currT == 30 or currT == 15 or currT == 45:
                 if pY >= pIY or ang/6 == 30 or ang/6 == 15 or currT == 45:
                     enc_Arr += "]] </jsonData>"
-                    with open("ArraysForWatch.txt", "a+") as text_file:
+                    with open("out/ArraysForWatch.txt", "a+") as text_file:
                         text_file.write("\n" + enc_Arr)
-                    blank_image.save("out" + name + str(fileAng) +".png")
+                    blank_image.save("out/out" + name + str(fileAng) +".png")
                 blank_image = Image.new("RGB", (pIX, pIY))
                 blank_text = "info face=out" + name + str(ang) + " size=50 bold=0 italic=0 charset=ascii unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0 outline=0"
                 blank_text += "\ncommon lineHeight=24 base=24 scaleW=256 scaleH=256 pages=1 packed=0"
                 blank_text += "\npage id=0 file=\"out" + name + str(ang) + ".png\""
-                blank_text += "\nchars count=60"
+                blank_text += "\nchars count=255"
                 enc_Arr = 	"<jsonData id=\"" + name + str(int(currT)) + "\"> [["
                 #enc_Arr = "const " + name + str(ang) + " = [["
                 pX, pY, charOffset = 0, 0, 0
@@ -66,28 +67,35 @@ def smallifyToMap():
                     t = ImageStat.Stat(a).sum
                     if any(g > 0 for g in t):
                         try:
-                            if pX >= pIX or pX + width >= pIX:
+                            if pX + width >= pIX: #pX >= pIX or
                                 pX = 0
                                 pY += height
                             blank_image.paste(a, (pX, pY))
+                            if (pX - width != oldpX and pX != 0):
+                                print(name, charOffset + 33, pX, pY)
+                            if oldChar + 1 != charOffset:
+                                print(name, charOffset + 33, pX, pY, oldChar + 33, oldpX)
                             blank_text += "\nchar id=" + str(int(charOffset + 33)) + " x=" + str(int(pX)) + " y=" + str(int(pY)) + " width=24 height=24 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15"
                             # print(str(int(charOffset + 33)) + " " + str(pX) + " " + str(pY))
                             # print(bin((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
-                            temp = str(((int(charOffset + 33) << 20) ^ ((j) << 10 ) ^ i))
+                            temp = str(((int(charOffset + 33) << 22) ^ ((j) << 11 ) ^ i))
                             if enc_Arr.endswith("["):
                                 enc_Arr += temp
                             elif enc_Arr.endswith("]"):
                                 enc_Arr += ", [" + temp
                             else:
                                 enc_Arr +=  ", " + temp
+                            oldChar = charOffset
                             charOffset += 1
+                            oldpX = pX
                             pX += width
-                            with open("fontOut"+ name + str(fileAng) +".fnt", "w") as text_file:
+                            with open("out/fontOut"+ name + str(fileAng) +".fnt", "w") as text_file:
                                 text_file.write(blank_text)
                         except Exception as e:
+                            print("error")
                             print(e)
-        blank_image.save("out" + name + str(fileAng) +".png")
-        with open("ArraysForWatch.txt", "a+") as text_file:
+        blank_image.save("out/out" + name + str(fileAng) +".png")
+        with open("out/ArraysForWatch.txt", "a+") as text_file:
             text_file.write("\n" + enc_Arr + "]] </jsonData>")
     print('finished tiling')
 
