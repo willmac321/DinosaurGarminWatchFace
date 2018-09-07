@@ -21,7 +21,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	var xoff;
 	var yoff;
 	
-	var m = 14;
+	var m = 0;
 	
 	var fontArr = [[Rez.Fonts.fntBody0, Rez.Fonts.fntBody90, Rez.Fonts.fntBody180, Rez.Fonts.fntBody270], [Rez.Fonts.fntBodyPnk0, Rez.Fonts.fntBodyPnk90, Rez.Fonts.fntBodyPnk180, Rez.Fonts.fntBodyPnk270], 
 			 [Rez.Fonts.fntArm0, Rez.Fonts.fntArm90, Rez.Fonts.fntArm180, Rez.Fonts.fntArm270],  [Rez.Fonts.fntArmO0, Rez.Fonts.fntArmO90, Rez.Fonts.fntArmO180, Rez.Fonts.fntArmO270]];
@@ -235,16 +235,14 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
     function printTile(dc, fObj, arrObj) {
            for(var i = 0; i < arrObj.size(); i++) {
 		        var packed_value = arrObj[i];		
-		        var ypos = packed_value & 2047;
-		        packed_value >>= 11;
-		        var xpos = packed_value & 2047;
-		        packed_value >>= 11;
+		        var ypos = packed_value & 1023;
+		        packed_value >>= 10;
+		        var xpos = packed_value & 1023;
+		        packed_value >>= 10;
 		        var char = packed_value;
 		        
-//		        System.print(char + " " + xpos + " " + ypos + " \n");
-		        
-		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8 - 12, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
-		        	
+		        System.print(char + " " + xpos + " " + ypos + " \n");
+		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8 - 6, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
 
 		        
 	   		}

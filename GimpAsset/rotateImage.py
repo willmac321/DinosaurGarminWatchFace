@@ -29,7 +29,7 @@ def smallifyToMap():
     for name in ("Body", "BodyPnk", "Arm", "ArmO"):
         width = 24
         height = 24
-        pIX, pIY = 602, 602
+        pIX, pIY = 600, 600
         pX, pY = 0,0
         fileAng = 0
         charOffset = 0
@@ -78,7 +78,7 @@ def smallifyToMap():
                             blank_text += "\nchar id=" + str(int(charOffset + 33)) + " x=" + str(int(pX)) + " y=" + str(int(pY)) + " width=24 height=24 xoffset=0 yoffset=0 xadvance=24 page=0 chnl=15"
                             # print(str(int(charOffset + 33)) + " " + str(pX) + " " + str(pY))
                             # print(bin((int(charOffset + 33) << 20) ^ ((pX) << 10 ) ^ pY))
-                            temp = str(((int(charOffset + 33) << 22) ^ ((j) << 11 ) ^ i))
+                            temp = str(((int(charOffset + 33) << 20) ^ ((j) << 10 ) ^ i))
                             if enc_Arr.endswith("["):
                                 enc_Arr += temp
                             elif enc_Arr.endswith("]"):
