@@ -133,7 +133,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
      // We always want to refresh the full screen when we get a regular onUpdate call.
         fullScreenRefresh = true;
         
-        createWatchFace(dc);
+       createWatchFace(dc);
         
     	fullScreenRefresh = false;
     }
@@ -241,9 +241,9 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 		        packed_value >>= 11;
 		        var char = packed_value;
 		        
-		        System.print(char + " " + xpos + " " + ypos + " \n");
+//		        System.print(char + " " + xpos + " " + ypos + " \n");
 		        
-		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
+		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8 - 12, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
 		        	
 
 		        
