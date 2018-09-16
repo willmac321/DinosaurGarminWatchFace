@@ -21,15 +21,11 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	var xoff;
 	var yoff;
 	
-	var m = 0;
-	
-	var fontArr = [[Rez.Fonts.fntBody0, Rez.Fonts.fntBody90, Rez.Fonts.fntBody180, Rez.Fonts.fntBody270], [Rez.Fonts.fntBodyPnk0, Rez.Fonts.fntBodyPnk90, Rez.Fonts.fntBodyPnk180, Rez.Fonts.fntBodyPnk270], 
-			 [Rez.Fonts.fntArm0, Rez.Fonts.fntArm90, Rez.Fonts.fntArm180, Rez.Fonts.fntArm270],  [Rez.Fonts.fntArmO0, Rez.Fonts.fntArmO90, Rez.Fonts.fntArmO180, Rez.Fonts.fntArmO270]];
-			  
-	var jsonArr = [[Rez.JsonData.Body0, Rez.JsonData.Body15, Rez.JsonData.Body30, Rez.JsonData.Body45], [Rez.JsonData.BodyPnk0, Rez.JsonData.BodyPnk15, Rez.JsonData.BodyPnk30, Rez.JsonData.BodyPnk45], 
-			 [Rez.JsonData.Arm0, Rez.JsonData.Arm15, Rez.JsonData.Arm30, Rez.JsonData.Arm45],  [Rez.JsonData.ArmO0, Rez.JsonData.ArmO15, Rez.JsonData.ArmO30, Rez.JsonData.ArmO45]]; 
+	var fontArr = [[Rez.Fonts.fntDinosaurArm20,Rez.Fonts.fntDinosaurArm215,Rez.Fonts.fntDinosaurArm230,Rez.Fonts.fntDinosaurArm245],[Rez.Fonts.fntDinosaurArmO20,Rez.Fonts.fntDinosaurArmO215,Rez.Fonts.fntDinosaurArmO230,Rez.Fonts.fntDinosaurArmO245],[Rez.Fonts.fntDinosaurBody20,Rez.Fonts.fntDinosaurBody215,Rez.Fonts.fntDinosaurBody230,Rez.Fonts.fntDinosaurBody245],[Rez.Fonts.fntDinosaurBodyPnk0,Rez.Fonts.fntDinosaurBodyPnk15,Rez.Fonts.fntDinosaurBodyPnk30,Rez.Fonts.fntDinosaurBodyPnk45]];
+	var jsonArr = [[Rez.JsonData.DinosaurArm20,Rez.JsonData.DinosaurArm215,Rez.JsonData.DinosaurArm230,Rez.JsonData.DinosaurArm245],[Rez.JsonData.DinosaurArmO20,Rez.JsonData.DinosaurArmO215,Rez.JsonData.DinosaurArmO230,Rez.JsonData.DinosaurArmO245],[Rez.JsonData.DinosaurBody20,Rez.JsonData.DinosaurBody215,Rez.JsonData.DinosaurBody230,Rez.JsonData.DinosaurBody245],[Rez.JsonData.DinosaurBodyPnk0,Rez.JsonData.DinosaurBodyPnk15,Rez.JsonData.DinosaurBodyPnk30,Rez.JsonData.DinosaurBodyPnk45]];
 	
 	
+
 	
     function initialize() {
         WatchFace.initialize();
@@ -107,13 +103,13 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 				
-		drawTiling(dc, "min", 0xAAFF00, Graphics.COLOR_BLACK, fontArr[0], jsonArr[0], hr, min);
+		drawTiling(dc, "min", 0xAAFF00, Graphics.COLOR_BLACK, fontArr[2], jsonArr[2], hr, min);
 		
-	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[1], jsonArr[1], hr, min);
+	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);
 	   
-	   	drawTiling(dc, "hr", Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);
+	   	drawTiling(dc, "hr", Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT, fontArr[1], jsonArr[1], hr, min);
 
- 		drawTiling(dc, "hr", 0x00FF00, Graphics.COLOR_TRANSPARENT, fontArr[2], jsonArr[2], hr, min);
+ 		drawTiling(dc, "hr", 0x00FF00, Graphics.COLOR_TRANSPARENT, fontArr[0], jsonArr[0], hr, min);
 	
 
 		// Draw the clock hash marks
@@ -210,20 +206,20 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 				hrInc =((t % 3) * 5 + ((hrInc - (hrInc.toNumber().toFloat())) * 5).toNumber()) ; 		
            
 	    	if (t < 3){
-		   	   	fObj = loadResource(fnt[1]); 
-		   		var arr = WatchUi.loadResource(jsn[1]);	   		
+		   	   	fObj = loadResource(fnt[0]); 
+		   		var arr = WatchUi.loadResource(jsn[0]);	   		
 		   		arrObj = arr[hrInc];
 		   } else if (t >=3 && t < 6){
-		    	fObj = loadResource(fnt[2]);	  
-		   	   	var arr = WatchUi.loadResource(jsn[2]);
+		    	fObj = loadResource(fnt[1]);	  
+		   	   	var arr = WatchUi.loadResource(jsn[1]);
 		   		arrObj = arr[hrInc];	 
 		   } else if (t >=6 && t < 9){
-		   		fObj = loadResource(fnt[3]);
-		   	   	var arr = WatchUi.loadResource(jsn[3]);
+		   		fObj = loadResource(fnt[2]);
+		   	   	var arr = WatchUi.loadResource(jsn[2]);
 		   		arrObj = arr[hrInc];	   
 	 	   } else if (t >=9 && t <= 12){
-	 	        fObj = loadResource(fnt[0]);
-	 	   	   	var arr = WatchUi.loadResource(jsn[0]);
+	 	        fObj = loadResource(fnt[3]);
+	 	   	   	var arr = WatchUi.loadResource(jsn[3]);
 		   		arrObj = arr[hrInc];	  	   
 		   }
 		   
@@ -241,7 +237,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 		        packed_value >>= 10;
 		        var char = packed_value;
 		        
-		        System.print(char + " " + xpos + " " + ypos + " \n");
+//		        System.print(char + " " + xpos + " " + ypos + " \n");
 		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8 - 6, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
 
 		        

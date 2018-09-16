@@ -1,0 +1,18 @@
+<fonts>
+<font id="fntDinosaurArm20"  filename="fonts/fontOutDinosaurArm20.fnt" antialias="true"/>
+<font id="fntDinosaurArm215"  filename="fonts/fontOutDinosaurArm290.fnt" antialias="true"/>
+<font id="fntDinosaurArm230"  filename="fonts/fontOutDinosaurArm2180.fnt" antialias="true"/>
+<font id="fntDinosaurArm245"  filename="fonts/fontOutDinosaurArm2270.fnt" antialias="true"/>
+<font id="fntDinosaurArmO20"  filename="fonts/fontOutDinosaurArmO20.fnt" antialias="true"/>
+<font id="fntDinosaurArmO215"  filename="fonts/fontOutDinosaurArmO290.fnt" antialias="true"/>
+<font id="fntDinosaurArmO230"  filename="fonts/fontOutDinosaurArmO2180.fnt" antialias="true"/>
+<font id="fntDinosaurArmO245"  filename="fonts/fontOutDinosaurArmO2270.fnt" antialias="true"/>
+<font id="fntDinosaurBody20"  filename="fonts/fontOutDinosaurBody20.fnt" antialias="true"/>
+<font id="fntDinosaurBody215"  filename="fonts/fontOutDinosaurBody290.fnt" antialias="true"/>
+<font id="fntDinosaurBody230"  filename="fonts/fontOutDinosaurBody2180.fnt" antialias="true"/>
+<font id="fntDinosaurBody245"  filename="fonts/fontOutDinosaurBody2270.fnt" antialias="true"/>
+<font id="fntDinosaurBodyPnk0"  filename="fonts/fontOutDinosaurBodyPnk0.fnt" antialias="true"/>
+<font id="fntDinosaurBodyPnk15"  filename="fonts/fontOutDinosaurBodyPnk90.fnt" antialias="true"/>
+<font id="fntDinosaurBodyPnk30"  filename="fonts/fontOutDinosaurBodyPnk180.fnt" antialias="true"/>
+<font id="fntDinosaurBodyPnk45"  filename="fonts/fontOutDinosaurBodyPnk270.fnt" antialias="true"/>
+</fonts>
