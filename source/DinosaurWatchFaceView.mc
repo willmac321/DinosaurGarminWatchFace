@@ -3,6 +3,7 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.Application;
+using Toybox.Time.Gregorian;
 
 var partialUpdatesAllowed = false;
 
@@ -25,6 +26,8 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	var jsonArr = [[Rez.JsonData.DinosaurArm20,Rez.JsonData.DinosaurArm215,Rez.JsonData.DinosaurArm230,Rez.JsonData.DinosaurArm245],[Rez.JsonData.DinosaurArmO20,Rez.JsonData.DinosaurArmO215,Rez.JsonData.DinosaurArmO230,Rez.JsonData.DinosaurArmO245],[Rez.JsonData.DinosaurBody20,Rez.JsonData.DinosaurBody215,Rez.JsonData.DinosaurBody230,Rez.JsonData.DinosaurBody245],[Rez.JsonData.DinosaurBodyPnk0,Rez.JsonData.DinosaurBodyPnk15,Rez.JsonData.DinosaurBodyPnk30,Rez.JsonData.DinosaurBodyPnk45]];
 	
 	
+	
+//	var m; //19 //49
 
 	
     function initialize() {
@@ -32,6 +35,7 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         screenShape = System.getDeviceSettings().screenShape;
         fullScreenRefresh = true;
         partialUpdatesAllowed = ( Toybox.WatchUi.WatchFace has :onPartialUpdate );
+//		m=0;
 
     }
 
@@ -102,15 +106,17 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         // Fill the entire background with Black.
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
-				
+		
+	
+		
 		drawTiling(dc, "min", 0xAAFF00, Graphics.COLOR_BLACK, fontArr[2], jsonArr[2], hr, min);
 		
-	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);
-	   
+	   	drawTiling(dc, "min", 0xFF55FF, Graphics.COLOR_TRANSPARENT, fontArr[3], jsonArr[3], hr, min);	   
 	   	drawTiling(dc, "hr", Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT, fontArr[1], jsonArr[1], hr, min);
 
- 		drawTiling(dc, "hr", 0x00FF00, Graphics.COLOR_TRANSPARENT, fontArr[0], jsonArr[0], hr, min);
+ 		drawTiling(dc, "hr", 0x5AFF00, Graphics.COLOR_TRANSPARENT, fontArr[0], jsonArr[0], hr, min);
 	
+		drawDateString( dc, width / 2, height-28 );
 
 		// Draw the clock hash marks
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
@@ -119,9 +125,9 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         // Draw the 3, 6, 9, and 12 hour labels
         var font = Graphics.FONT_MEDIUM;
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText((width / 2), 2, font, "12", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((width / 2), 0, font, "12", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(width - 2, (height / 2) - 15, font, "3", Graphics.TEXT_JUSTIFY_RIGHT);
-        dc.drawText(width / 2, height - 30, font, "6", Graphics.TEXT_JUSTIFY_CENTER);
+//        dc.drawText(width / 2, height - 30, font, "6", Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(2, (height / 2) - 15, font, "9", Graphics.TEXT_JUSTIFY_LEFT);
     }
     
@@ -138,10 +144,12 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
         // Handle the partial update event
     function onPartialUpdate( dc ) {
     	
-
-//    	System.print(m);
+////    	System.print(m);
 //    	createWatchFace(dc);
-//    	m += 1;
+//    	m++;
+//    	if(m>59){
+//    		m = 0;
+//    	}
     	
     }
  
@@ -236,7 +244,12 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 		        var xpos = packed_value & 1023;
 		        packed_value >>= 10;
 		        var char = packed_value;
-		        
+	         
+//		        if (char == 173) {
+//		        //try to draw png to see if image loaded correctly
+//		        	System.print(xpos + " " + ypos + " " + char + "\n");
+//		        }
+
 //		        System.print(char + " " + xpos + " " + ypos + " \n");
 		        dc.drawText(xpos + dc.getWidth()/8, ypos+ dc.getHeight()/8 - 6, fObj, char.toChar(), Graphics.TEXT_JUSTIFY_CENTER);
 
@@ -244,6 +257,14 @@ class DinosaurWatchFaceView extends WatchUi.WatchFace {
 	   		}
     }
 
+        // Draw the date string into the provided buffer at the specified location
+    function drawDateString( dc, x, y ) {
+        var info = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dateStr = Lang.format("$1$/$2$/$3$", [info.month, info.day, info.year - 2000]);
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x, y, Graphics.FONT_XTINY, dateStr, Graphics.TEXT_JUSTIFY_CENTER);
+    }
     
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes

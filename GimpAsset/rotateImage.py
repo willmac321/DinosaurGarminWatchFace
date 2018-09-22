@@ -131,7 +131,7 @@ def smallifyToMap():
                     t = ImageStat.Stat(a).sum
                     if any(g > 0 for g in t):
                         try:
-                            if pX + width >= pIX: #pX >= pIX or
+                            if pX + width > pIX: #pX >= pIX or
                                 pX = 0
                                 pY += height
                             blank_image.paste(a, (pX, pY))
@@ -152,6 +152,9 @@ def smallifyToMap():
                                 enc_Arr +=  ", " + temp
                             oldChar = charOffset
                             charOffset += 1
+#Watch wont print any character at char 173... so skip it
+                            if charOffset + 33 == 173:
+                                charOffset +=1
                             oldpX = pX
                             pX += width
                             with open("out/fontOut"+ name + str(fileAng) +".fnt", "w") as text_file:
